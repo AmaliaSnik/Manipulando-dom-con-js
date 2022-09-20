@@ -2,7 +2,6 @@ import checkComplete from './components/checkComplete.js';
 import deleteIcon from './components/deleteIcon.js';
 
 const btn = document.querySelector('[data-form-btn]');
-
 const createTask = (evento) => {
   evento.preventDefault();
   const input = document.querySelector('[data-form-input]');
